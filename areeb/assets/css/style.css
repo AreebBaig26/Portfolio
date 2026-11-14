@@ -1028,6 +1028,7 @@ img { max-width: 100%; height: auto; display: block; }
 @media (max-width: 575.98px) {
   .code-body { font-size: 0.78rem; }
 }
+<<<<<<< HEAD
 
 /* =========================================================
    UPDATE: CASE STUDY EXTRAS, CERTIFICATIONS, MINI ACTIONS
@@ -1155,3 +1156,5 @@ img { max-width: 100%; height: auto; display: block; }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .nav-link { padding: 8px 9px !important; font-size: 0.88rem; }
 }
+=======
+>>>>>>> aeab3796daba5a2bb548e3634d370f43f6ea17a8
