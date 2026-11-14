@@ -17,21 +17,15 @@ portfolio/
     │   └── script.js
     ├── images/
     │   └── projects/
-<<<<<<< HEAD
     │       ├── CTS_Portfolio_Showcase.png
     │       ├── SalesPilot_AI_Portfolio_Showcase.jpg  (+ salespilot-dashboard/hub/assistant/customers.jpg)
     │       ├── portfolio-showcase.jpg
-=======
->>>>>>> aeab3796daba5a2bb548e3634d370f43f6ea17a8
     │       ├── chatmind-showcase.jpg
     │       ├── hermes-showcase.jpg
     │       ├── chatapp-showcase.jpg
     │       ├── weather-showcase.jpg
     │       └── statussaver-showcase.jpg
-<<<<<<< HEAD
     ├── certificates/            <- PUT YOUR 5 CERTIFICATE FILES HERE
-=======
->>>>>>> aeab3796daba5a2bb548e3634d370f43f6ea17a8
     └── Mirza_Areeb_Baig_Flutter_Developer_CV.pdf
 ```
 
@@ -127,7 +121,6 @@ Change a value here and it updates everywhere it's used across the site.
 ## Notes on the contact form
 
 Since GitHub Pages has no backend, the contact form uses a `mailto:` link — submitting it opens the visitor's email client with the message pre-filled, addressed to `areebbaig26@gmail.com`.
-<<<<<<< HEAD
 
 
 ---
@@ -161,5 +154,3 @@ Replace the image file in `assets/images/projects/` (same name) or edit the `<im
 
 ### Deploy to GitHub Pages
 Commit the contents of this folder to your repo (your live URL is `areebbaig26.github.io/Portfolio/areeb/index.html`, so keep the `areeb/` folder path), push, and wait ~1 minute for Pages to rebuild. All paths are relative.
-=======
->>>>>>> aeab3796daba5a2bb548e3634d370f43f6ea17a8

@@ -119,7 +119,6 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 });
-<<<<<<< HEAD
 
 /* =========================================================
    UPDATE: CERTIFICATE PREVIEW MODAL
@@ -217,5 +216,3 @@ document.addEventListener('DOMContentLoaded', function () {
     viewer.innerHTML = '';
   });
 })();
-=======
->>>>>>> aeab3796daba5a2bb548e3634d370f43f6ea17a8
