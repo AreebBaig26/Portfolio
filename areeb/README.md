@@ -17,11 +17,21 @@ portfolio/
     │   └── script.js
     ├── images/
     │   └── projects/
+<<<<<<< HEAD
+    │       ├── CTS_Portfolio_Showcase.png
+    │       ├── SalesPilot_AI_Portfolio_Showcase.jpg  (+ salespilot-dashboard/hub/assistant/customers.jpg)
+    │       ├── portfolio-showcase.jpg
+=======
+>>>>>>> aeab3796daba5a2bb548e3634d370f43f6ea17a8
     │       ├── chatmind-showcase.jpg
     │       ├── hermes-showcase.jpg
     │       ├── chatapp-showcase.jpg
     │       ├── weather-showcase.jpg
     │       └── statussaver-showcase.jpg
+<<<<<<< HEAD
+    ├── certificates/            <- PUT YOUR 5 CERTIFICATE FILES HERE
+=======
+>>>>>>> aeab3796daba5a2bb548e3634d370f43f6ea17a8
     └── Mirza_Areeb_Baig_Flutter_Developer_CV.pdf
 ```
 
@@ -117,3 +127,39 @@ Change a value here and it updates everywhere it's used across the site.
 ## Notes on the contact form
 
 Since GitHub Pages has no backend, the contact form uses a `mailto:` link — submitting it opens the visitor's email client with the message pre-filled, addressed to `areebbaig26@gmail.com`.
+<<<<<<< HEAD
+
+
+---
+
+## UPDATE NOTES (latest revision)
+
+### What changed
+- Projects reordered/updated: 01 CTS, 02 ChatMind AI, 03 Real-Time Chat App, **04 SalesPilot AI**; other projects: Weather App, WhatsApp Status Saver, Portfolio Website. Every project now has a working **View Case Study** modal.
+- **Bug fixed:** the CTS "Case Study" button pointed to `#modal-cts`, which did not exist in the HTML. The modal is now created.
+- New **Certifications** section (5 cards) with a preview modal; nav link added.
+- New Flutter Developer Intern entry (Comstech Solutions, Hyderabad, 2 months) in Experience; new Technical Experience cards (PHP & MySQL, Website Deployment & Hosting).
+- Skills reorganised into 9 categories; hero, about, stats (2+ years) and meta tags updated.
+- New CV PDF at `assets/Mirza_Areeb_Baig_Flutter_Developer_CV.pdf`.
+- Files changed: `index.html`, `assets/css/style.css` (additions appended at the end), `assets/js/script.js` (certificate viewer appended), new images, new `assets/certificates/`.
+
+### Certificates (manual step)
+Copy your files into `assets/certificates/` with these exact names (`.jpg`, `.jpeg`, `.png`, `.webp` or `.pdf`):
+
+| File name | Certificate |
+|---|---|
+| `app-development-certificate-01` | App Development Certificate 01 |
+| `app-development-certificate-02` | App Development Certificate 02 |
+| `python-development-certificate` | Python Development Certificate |
+| `huawei-hcia-datacom-v1-certificate` | HCIA-Datacom V1.0 Course |
+| `comstech-flutter-internship-certificate` | Flutter Developer Internship Certificate |
+
+No code change needed: the "View Certificate" button finds the file automatically. Until then visitors see "Certificate preview will be available soon."
+
+### Replacing project screenshots
+Replace the image file in `assets/images/projects/` (same name) or edit the `<img src>` in the project card and in its modal (`id="modal-..."`) near the bottom of `index.html`.
+
+### Deploy to GitHub Pages
+Commit the contents of this folder to your repo (your live URL is `areebbaig26.github.io/Portfolio/areeb/index.html`, so keep the `areeb/` folder path), push, and wait ~1 minute for Pages to rebuild. All paths are relative.
+=======
+>>>>>>> aeab3796daba5a2bb548e3634d370f43f6ea17a8
